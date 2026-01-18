@@ -1,0 +1,28 @@
+<!ELEMENT user_profile (basic_info, social_media, friends)>
+
+<!ELEMENT basic_info (name, surname, age, height, job, favorite_simile, pets, address)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT surname (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT height (#PCDATA)>
+<!ELEMENT job (#PCDATA)>
+<!ELEMENT favorite_simile (#PCDATA)>
+
+<!ELEMENT pets (pet*)>
+<!ELEMENT pet (#PCDATA)>
+
+<!ELEMENT address (street, number, cp)>
+<!ELEMENT street (#PCDATA)>
+<!ELEMENT number (#PCDATA)>
+<!ELEMENT cp (#PCDATA)>
+
+<!ELEMENT social_media (instagram, twitter)>
+<!ELEMENT instagram (user, email)>
+<!ELEMENT user (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT twitter (#PCDATA)>
+
+<!ELEMENT friends (friend*)>
+<!ELEMENT friend (name, surname, age)>
+
+<!ATTLIST age nil (true | false) "false">

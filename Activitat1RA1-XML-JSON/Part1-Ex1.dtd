@@ -1,0 +1,27 @@
+<!ELEMENT botiga (inventari+)>
+<!ATTLIST botiga 
+          nom CDATA #REQUIRED
+          data CDATA #IMPLIED>
+
+<!ELEMENT inventari (producte+)>
+<!ATTLIST inventari 
+          seccio CDATA #REQUIRED>
+
+<!ELEMENT producte (nom, descripcio, preu, estat, imatge)>
+<!ATTLIST producte 
+          id ID #REQUIRED>
+
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT descripcio (#PCDATA)>
+
+<!ELEMENT preu (#PCDATA)>
+<!ATTLIST preu 
+          moneda CDATA #FIXED "EUR">
+
+<!ELEMENT estat EMPTY>
+<!ATTLIST estat 
+          disponibilitat (en estoc | esgotat) #REQUIRED>
+
+<!ELEMENT imatge EMPTY>
+<!ATTLIST imatge 
+          url CDATA #REQUIRED>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<botiga nom="La Meva Botiga Online" data="2024-05-20">
+    
+    <inventari seccio="Electronica">
+        
+        <producte id="P001">
+            <nom>Auriculars Sense Fils</nom>
+            <descripcio>Auriculars bluetooth amb cancel·lació de soroll.</descripcio>
+            <preu moneda="EUR">89.99</preu>
+            <estat disponibilitat="en estoc" />
+            <imatge url="https://cdn.tiendasactiva.com/img/4548736142817_0_21.jpg" />
+        </producte>
+
+        <producte id="P002">
+            <nom>Ratolí Ergonòmic</nom>
+            <descripcio>Ratolí òptic vertical per evitar fatiga.</descripcio>
+            <preu moneda="EUR">45.00</preu>
+            <estat disponibilitat="esgotat" />
+            <imatge url="https://cdn.grupoelcorteingles.es/SGFM/dctm/MEDIA03/202307/19/00128635708523____7__1200x1200.jpg" />
+        </producte>
+        
+    </inventari>
+    
+</botiga>
+
+
