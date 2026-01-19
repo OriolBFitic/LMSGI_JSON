@@ -1,0 +1,66 @@
+{
+  "pokemons": [
+    {
+      "id": 1,
+      "nom": "Bulbasaur",
+      "tipus": ["Planta", "Verí"],
+      "pes": "6.9 kg",
+      "altura": "0.7 m",
+      "estadistiques": {
+        "velocitat": 3,
+        "fortalesa": 3,
+        "precisio": 4,
+        "resistencia": 4
+      },
+      "moviments": [
+        {
+          "nom": "Llatigazo",
+          "descripcio": "Colpeja l'objectiu amb llatigs fins.",
+          "potencia": 45,
+          "contacte": true
+        },
+        {
+          "nom": "Granyit",
+          "descripcio": "Redueix l'atac de l'oponent.",
+          "potencia": 0,
+          "contacte": false
+        }
+      ],
+      "imatge": "https://www.wikidex.net/wiki/Archivo:Bulbasaur.png",
+      "evolucions": [
+        {
+          "id_evolucio": 2,
+          "nivell_necessari": 16
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nom": "Charmander",
+      "tipus": ["Foc"],
+      "pes": "8.5 kg",
+      "altura": "0.6 m",
+      "estadistiques": {
+        "velocitat": 4,
+        "fortalesa": 3,
+        "precisio": 3,
+        "resistencia": 2
+      },
+      "moviments": [
+        {
+          "nom": "Ascuas",
+          "descripcio": "Un atac de foc que pot cremar.",
+          "potencia": 40,
+          "contacte": false
+        }
+      ],
+      "imatge": "https://www.wikidex.net/wiki/Archivo:Charmander.png",
+      "evolucions": [
+        {
+          "id_evolucio": 5,
+          "nivell_necessari": 16
+        }
+      ]
+    }
+  ]
+}
